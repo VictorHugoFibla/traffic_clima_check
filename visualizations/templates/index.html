@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard de Clima e Tráfego</title>
+</head>
+<body>
+    <h1>Dashboard de Clima e Tráfego</h1>
+    <div>
+        <h2>Clima</h2>
+        {{ weather_graph | safe }}
+    </div>
+    <div>
+        <h2>Tráfego</h2>
+        {{ traffic_graph | safe }}
+    </div>
+</body>
+</html>
